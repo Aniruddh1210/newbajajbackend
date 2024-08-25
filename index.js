@@ -14,9 +14,9 @@ app.post('/bfhl', (req, res) => {
   // Process the data and construct the response
   const response = {
     is_success: true,
-    user_id: "john_doe_17091999",
-    email: "john@xyz.com",
-    roll_number: "ABCD123",
+    user_id: "Aniruddh_Laharia_12102003",
+    email: "aniruddh.laharia2021@vitstudent.ac.in",
+    roll_number: "21BCE0478",
     numbers: data.filter(item => !isNaN(item)),
     alphabets: data.filter(item => /^[A-Za-z]$/.test(item)),
     highest_lowercase_alphabet: data.filter(item => /^[a-z]$/.test(item)).sort().slice(-1)
